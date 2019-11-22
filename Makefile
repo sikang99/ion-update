@@ -1,8 +1,8 @@
 #
-# Makefile for ayame, WebRTC signaling server
+# Makefile for ion, WebRTC Media server
 #
-PROG=ayame
-VERSION=19.05.00
+PROG=ion
+VERSION=0.0.1
 # -----------------------------------------------------------------------------------------------------------------------
 usage:
 	@echo "WebRTC signaling server : $(PROG) $(VERSION)"
@@ -103,16 +103,13 @@ ngrok-run nr:
 	ngrok http 3000
 #-----------------------------------------------------------------------------------------
 open o:
-	@echo "> make (open) [orig|page|app]"
+	@echo "> make (open) [orig|page]"
 
 open-orig oo:
-	xdg-open https://github.com/OpenAyame/ayame
+	xdg-open https://github.com/pion/ion
 
 open-page op:
-	xdg-open https://github.com/sikang99/ayame
-
-open-app oa:	# AppRTC
-	xdg-open https://github.com/webrtc/apprtc
+	xdg-open https://github.com/sikang99/ion-update
 #-----------------------------------------------------------------------------------------
 git g:
 	@echo "> make (git) [update|login|tag|status]"

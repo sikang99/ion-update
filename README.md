@@ -1,4 +1,4 @@
-## WebRTC Signaling Server Ion Update
+## WebRTC Media Server Ion Update
 updated by Stoney Kang(CSO), sikang99@gmail.com in [TeamGRIT.kr](https://teamgrit.kr)
 
 ### Usage
